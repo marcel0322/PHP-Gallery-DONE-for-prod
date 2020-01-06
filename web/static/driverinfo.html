@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formula 1 | Drivers</title>
+    <link rel="icon" type="image/png" href="static/racing-flag.png">
+    <link rel="stylesheet" href="static/style.css">
+    <script src="static/darkmode.js"></script>    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="static/toggledd.js"></script>
+</head>
+<body>
+    <header>
+        <img src="static/f1.svg" alt="logo">
+    </header>
+    <nav>
+        <a href="/">Home</a>
+        <div class="dropdown active">
+            <span>Drivers</span>
+            <div class="dropdown-content">
+                <a href="/info">Driver Information</a>
+                <a href="/gallery">Driver Gallery</a>
+                <a href="/form">Upload Your Files</a>
+            </div>
+        </div>
+        
+        <a href="/teams">Teams</a>
+        <a href="/form">Upload</a>
+    </nav>
+    <div class="content" id="content-dark">
+        <div class="paragraph" id="para-dark">
+            <h2 class="h2dark">Meet the Drivers.</h2>
+            <div id="driverdisplay">
+            <div class="driver ferrari">
+                <h2>Ferrari.</h2><br>
+                <h2>Charles Leclerc 16.</h2>
+                <p>
+                    (born 16 October 1997) is a Monégasque racing driver, currently driving in Formula One for Scuderia Ferrari.
+                    He made his Formula One debut in 2018 for Sauber, for which he was part of Ferrari Driver Academy.
+                    Leclerc became the second-youngest driver to qualify on pole position in Formula One during his first Ferrari season in Bahrain.
+                    #notafanboyjustpassionate
+                </p>
+                <h2>Sebastian Vettel 5.</h2>
+                <p>
+                    (born 3 July 1987) is a German racing driver who races in Formula One for Scuderia Ferrari.
+                    He is a four-time Formula One World Champion, having won consecutive titles in 2010–2013 with Red Bull Racing,
+                    and is regarded by many as one of the greatest drivers in the history of the sport.
+                </p>
+            </div>
+            <div class="driver mercedes">
+                <h2>Mercedes.</h2><br>
+                <h2>Lewis Hamilton 44.</h2>
+                <p>
+                    (born 7 January 1985) is a British racing driver who races in Formula One for Mercedes-AMG Petronas Motorsport.
+                    A six-time Formula One World Champion, he is widely regarded as one of the greatest drivers in the history of the sport,
+                    and considered by some to be the greatest of all time.
+                    #blessed #bestfans
+                </p>
+                <h2>Valtteri Bottas 77.</h2>
+                <p>
+                    (born 28 August 1989) is a Finnish racing driver currently competing in Formula One with Mercedes.
+                    Since joining Mercedes, Bottas has won 7 races, 3 in 2017 and 4 in 2019.
+                    He will continue driving for Mercedes in the upcoming 2020 season, partnering with six time Formula One World Champion Lewis Hamilton.
+                    #valtteriitsjames #wingman
+                </p>
+            </div>
+            <div class="driver redbull">
+                <h2>Red Bull Racing.</h2><br>
+                <h2>Max Verstappen 33.</h2>
+                <p>
+                    (born 30 September 1997) is a Belgian-Dutch racing driver who competes under the Dutch flag in Formula One with Red Bull Racing.
+                    At the 2015 Australian Grand Prix, when he was aged 17 years, 166 days, he became the youngest driver to compete in Formula 1.
+                    He holds eight other "firsts" in Formula One racing.
+                </p>
+                <h2>Alex Albon 23.</h2>
+                <p>
+                    (born 23 March 1996) is a Thai-British racing driver, currently driving in Formula One for Red Bull Racing.
+                    He raced for Toro Rosso for the first half of 2019, before being promoted to Red Bull for the second half of the season,
+                    replacing Pierre Gasly who has returned to Toro Rosso.
+                </p>
+            </div>
+            <div class="driver mclaren">
+                <h2>McLaren.</h2><br>
+                <h2>Carlos Sainz 55.</h2>
+                <p>
+                    (born 1 September 1994) is a Spanish racing driver currently racing in Formula One for McLaren.
+                    He is the son of former double World Rally Champion Carlos Sainz.
+                    He raced for DAMS in Formula Renault 3.5 in 2014 winning the championship before moving to F1 with Toro Rosso.
+                    #thechilli
+                </p>
+                <h2>Lando Norris 4.</h2>
+                <p>
+                    (born 13 November 1999) is a British-Belgian racing driver currently competing in Formula One, for McLaren.
+                    He won the MSA Formula championship in 2015, and the Toyota Racing Series, Eurocup Formula Renault 2.0 and Formula Renault 2.0 Northern European Cup in 2016.
+                    He also received the McLaren Autosport BRDC Award that year.
+                    #themilkman
+                </p>
+            </div>
+            <div class="driver renault">
+                <h2>Renault.</h2><br>
+                <h2>Daniel Ricciardo 3.</h2>
+                <p>
+                    (born 1 July 1989) is an Australian racing driver who is currently competing in Formula One for the Renault F1 Team.
+                    He entered Formula One as a test driver for Scuderia Toro Rosso and made his debut at the 2011 British Grand Prix with the HRT team as part of a deal with Red Bull.
+                    He has joined Renault on a 2-year contract for the 2019 and 2020 F1 seasons.
+                </p>
+                <h2>Nico Hulkenberg 27.</h2>
+                <p>
+                    (born 19 August 1987) is a German professional racing driver currently racing for the Renault F1 Team.
+                    In 2015, he also contested two rounds of the 2015 FIA World Endurance Championship season for Porsche, winning the 2015 24 Hours of Le Mans in his first attempt.
+                    He was the 2009 champion of the GP2 Series, and is a previous champion of both the Formula 3 Euro Series and A1 Grand Prix, as part of A1 Team Germany.
+                </p>
+            </div>
+            <div class="driver forceindia">
+                <h2>Racing Point.</h2><br>
+                <h2>Sergio Perez 11.</h2>
+                <p>
+                    (born 26 January 1990) also known as "Checo" Pérez, is a Mexican racing driver, currently driving in Formula One for Racing Point.
+                    Pérez was a member of the Ferrari Driver Academy until 2012.
+                    He took his first Formula One podium at the 2012 Malaysian Grand Prix with Sauber, a drive which won him plaudits and fuelled speculation of a move to Ferrari in the near future.
+                </p>
+                <h2>Lance Stroll 18.</h2>
+                <p>
+                    (born 29 October 1998) is a Canadian-Belgian racing driver currently driving in Formula One with Racing Point, having previously driven for Williams in 2017 and 2018.
+                    He was Italian F4 champion in 2014, Toyota Racing Series champion in 2015, and 2016 FIA European Formula 3 champion.
+                    He was part of the Ferrari Driver Academy from 2010 to 2015.
+                    #daddy$troll
+                </p>
+            </div>
+            <div class="driver tororosso">
+                <h2>Toro Rosso.</h2><br>
+                <h2>Daniil Kvyat 26.</h2>
+                <p>
+                    (born 26 April 1994), is a Russian auto racing driver currently driving in Formula One for Scuderia Toro Rosso.
+                    He was runner-up at the 2012 Eurocup Formula Renault 2.0, and a champion in 2012 Formula Renault 2.0 Alps Series and 2013 GP3 Series.
+                    He made his debut in Formula One as a Toro Rosso driver in 2014 finishing 15th in the World Championship.
+                    #thetorpedo
+                </p>
+                <h2>Pierre Gasly 10.</h2>
+                <p>
+                    born 7 February 1996) is a French racing driver, currently racing in Formula One for Scuderia Toro Rosso.
+                    He was the 2016 GP2 Series champion, and the runner-up in the 2014 Formula Renault 3.5 Series and the 2017 Super Formula Championship.
+                    He made his Formula One début at the 2017 Malaysian Grand Prix.
+                    He began with Red Bull Racing in 2019, before trading places with Alexander Albon from Toro Rosso between the Hungarian and Belgian rounds.  
+                </p>
+            </div>
+            <div class="driver alfaromeo">
+                <h2>Alfa Romeo Racing.</h2><br>
+                <h2>Kimi Räikkönen 7.</h2>
+                <p>
+                    (born 17 October 1979), nicknamed "Iceman", is a Finnish racing driver currently driving in Formula One for Alfa Romeo Racing.
+                    He won the 2007 Formula One World Championship in his first season at Scuderia Ferrari.
+                    After nine seasons racing in Formula One he left the sport to compete in the World Rally Championship in 2010 and 2011, returning to Formula One from 2012.
+                    In addition to this title, Räikkönen also finished second overall in 2003 and 2005, and third in 2008, 2012 and 2018.
+                    Räikkönen has won 21 Grands Prix, making him the most successful Finnish driver in terms of Formula One race wins.
+                    He is the only driver to take a race win in the V10, V8 and the hybrid V6 engine eras.
+                    #theiceman #bwoah
+                </p>
+                <h2>Antonio Giovinazzi 99.</h2>
+                <p>
+                    (born 14 December 1993) is an Italian racing driver currently competing in Formula One for Alfa Romeo Racing.
+                    He was the 2015 FIA Formula 3 European Championship runner-up and raced with Prema in the 2016 International GP2 Series, again finishing runner-up with five wins and eight overall podiums.
+                    Giovinazzi was chosen by Scuderia Ferrari to be their third and reserve driver for the 2017 season.
+                </p>
+            </div>
+            <div class="driver haas">
+                <h2>Haas F1 Team.</h2><br>
+                <h2>Kevin Magnussen 20.</h2>
+                <p>
+                    (born 5 October 1992) is a Danish racing driver, currently driving for the Haas F1 Team.
+                    The son of four-time Le Mans GT class winner, GM factory driver and former Formula One driver Jan Magnussen,
+                    Kevin Magnussen came up through McLaren Formula One team's Young Driver Programme and drove for McLaren in the 2014 Formula One World Championship and has driven for Haas since 2017.
+                </p>
+                <h2>Romain Grosjean 8.</h2>
+                <p>
+                    (born 17 April 1986) is a racing driver, currently racing for the Haas F1 Team.
+                    He races under the French flag in Formula One although he was born in Geneva and holds dual French-Swiss nationality.
+                    He drove for Lotus again alongside Venezuelan Pastor Maldonado in the 2014 and 2015 seasons before moving to Haas in 2016, with whom he has a contract until the end of the 2020 season.
+                </p>
+            </div>
+            <div class="driver williams">
+                <h2>Williams.</h2><br>
+                <h2>Robert Kubica 88.</h2>
+                <p>
+                    (born 7 December 1984) is a Polish racing driver who is currently racing for the Williams F1 team.
+                    He became the first and only Polish driver to compete in Formula One.
+                    Between 2006 and 2009 he drove for the BMW Sauber F1 team, promoted from test driver to race driver during 2006.
+                    In June 2008, Kubica took his maiden Formula One victory in the Canadian Grand Prix, becoming the first Polish driver to win a Formula One race.
+                    That season he led the championship at one stage, before finishing fourth overall, his best career position.
+                    Kubica drove for Renault in 2010 and was set to remain with the team in 2011.
+                    Several years later Kubica spoke during an interview on an F1 official podcast 'Beyond The Grid' and confirmed he had signed a pre-contract for the 2012 season with Ferrari, a move that was eventually cancelled by his devastating rally crash in the winter of 2011.
+                    On 22 November 2018, Kubica was announced as a Williams race driver for the 2019 Formula One season.
+                    #driverblyskawica
+                </p>
+                <h2>George Russell 63.</h2>
+                <p>
+                    (born 15 February 1998) is a British racing driver currently competing in the 2019 Formula One World Championship for the Williams team.
+                    He was the 2018 FIA Formula 2 Champion for ART and the 2017 GP3 Series Champion.
+                    In October 2018 it was announced that Russell would be driving for the Williams Formula 1 Team at the start of the 2019 season where he will be partnered by Robert Kubica.
+                </p>
+            </div>
+            </div>
+            <br>
+            <h2 class="h2dark">Some of the all-time greatest champions:</h2>
+            <ul>
+                <li>Michael Schumacher (1969-present) - 7-time World Champion</li>
+                <li>Juan Manuel Fangio (1911-1995) - 5-time World Champion</li>
+                <li>Ayrton Senna (1960-1994) - 3-time World Champion</li>
+                <li>Alain Prost (1955-present) - 4-time World Champion</li>
+                <li>Niki Lauda (1949-2019) - 4-time World Champion</li>
+                <li>Sir Jackie Stewart (1939-present)- 3-time World Champion</li>
+                <li>Jim Clark (1936-1968) - 3-time World Champion</li>
+            </ul>
+        </div>
+    </div>
+    <footer id="footer">
+        
+        <p>WAI Project 2019 - made by Marcel Bieniek</p>
+        <p>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik" target="_blank">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank">www.flaticon.com</a></p>
+        <p>Logo By Liberty Media - Own work, Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=67670446" target="_blank">Link</a></p>
+    </footer>
+</body>
+</html>

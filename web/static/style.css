@@ -1,0 +1,339 @@
+body{
+    background-color: rgb(221, 221, 221);
+    font-family: 'Avenir', "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Helvetica Neue", Arial, sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(78, 78, 78);
+    padding: 20px;
+    padding-left: 0;
+    padding-bottom: 30px;
+    font-size: 120%;
+    color: whitesmoke;
+    overflow: hidden;
+}
+
+header img {
+    width: 23%;
+    height: 50px;
+    margin-left: 38.5%;
+    margin-top: 1%;
+}
+
+nav {
+    background-color: #333;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    font-size: 0;
+    text-align: center;
+    z-index: 1;
+}
+
+nav a, .dropdown {
+    width: 13.3%;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 0;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+}
+
+nav a:hover, .dropdown:hover {
+    background-color: rgb(221, 221, 221);
+    color: black;
+  }
+  
+nav a.active, .dropdown.active {
+    background-color: rgb(255, 0, 0);
+    color: whitesmoke;
+}
+
+.dropdown-content {
+    width: 100%;
+    color: black;
+    position: absolute;
+    top: 54px;
+    display: none;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+.dropdown-content a{
+    width: 100%;
+    color: black;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#sample {
+    width: 100%;
+    height: auto;
+}
+
+.content h2 {
+    background-color: #333;
+    color: whitesmoke;
+    line-height: 1.5;
+    padding: 2px;
+    padding-left: 25px;
+    display: inline;
+}
+
+.driver h2 {
+    display: inline-block;
+}
+
+#driverdisplay {
+    overflow: auto;
+}
+
+#driverdisplay p{
+    text-align: center;
+}
+
+#driverdisplay .driver p {
+    text-align: justify;
+    width: fit-content;
+    margin: 15px;
+}
+
+.driver {
+    width: 100%;
+    background-color: rgb(194, 0, 0);
+    border: 2px solid black;
+    float: left;
+    display: block;
+    color: whitesmoke;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+
+.ferrari {background-color: rgb(224, 16, 16);}
+.mercedes {background-color: rgb(25, 184, 176);}
+.redbull {background-color: rgb(36, 36, 255);}
+.mclaren {background-color: rgb(255, 123, 0);}
+.renault {background-color: rgb(251, 255, 0); color: black;}
+.forceindia {background-color: rgb(255, 110, 255);}
+.tororosso {background-color: rgb(36, 115, 233);}
+.alfaromeo {background-color: rgb(194, 0, 0);}
+.haas {background-color: rgb(180, 153, 62);}
+.williams {background-color: whitesmoke; color: black;}
+
+#champs {
+    background-color: #333;
+    color: whitesmoke;
+    line-height: 1.5;
+    padding: 2px;
+    padding-left: 25px;
+    display: inline;
+}
+
+.section img {
+    float: left;
+    margin: 5px;
+}
+
+.horizontal {
+    width: 150px; 
+    height: auto;
+}
+
+.vertical {
+    width: 80px; 
+    height: auto;
+}
+
+input text{
+    width: 200px;
+}
+
+footer{
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(78, 78, 78);
+    color: whitesmoke;  
+}
+
+footer a{
+    color: whitesmoke;
+}
+
+.content{
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+.paragraph {
+    width: 75%;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+    border: 2px solid black;
+    padding: 10px;
+    color: black;
+}
+
+.button {
+    background-color: #333;
+    color: whitesmoke;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font: inherit;
+    border: 2px solid whitesmoke;
+}
+
+.button:hover {
+    background-color: rgb(221, 221, 221);
+    color: black;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+input[type=text], input[type=password], select, textarea {
+    width: 97%;
+    padding: 12px;
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+    resize: vertical;
+}
+  
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+  
+input[type=submit], input[type=reset], input[type=button] {
+    background-color: rgb(255, 0, 0);
+    color: whitesmoke;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font: inherit;
+}
+  
+input[type=submit]:hover, input[type=reset]:hover {
+    background-color: rgb(221, 221, 221);
+    color: black;
+    border: 2px solid rgb(179, 179, 179);
+    padding: 13px 30px;
+}
+  
+.formbox {
+    padding: 10px;
+}
+  
+.fcol-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+  
+.fcol-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#dialog {
+    display: none;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    /*transition: transform .2s;*/
+}
+/*
+.gallerybox:hover {
+    transform: scale(1.5);
+}*/
+
+[class*="gcol-"] {
+    float: left;
+    padding: 15px;
+}
+
+.gallerybox {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    margin-bottom: 5px;
+    padding: 0px;
+    text-align: center;
+    line-height: 0.5;
+    transition: transform .2s;
+}
+
+@media screen and (max-width: 600px) {
+    nav a {width: 100%;}
+    nav {overflow: hidden; position: inherit;}
+    .dropdown {width: 100%;}
+    header {font-size: 90%; padding-bottom: 20px;}
+    header img {margin-top: 0; margin-left: 34%; width: 40%;}
+    .content .paragraph {width: auto; padding: 7px;}
+    .driver {width: 100%;}
+    .fcol-25, .fcol-75, input[type=submit], input[type=reset] {width: 100%; margin-bottom: 5px;}   
+}
+
+[class*="gcol-"] {width: 100%;}
+
+@media screen and (min-width: 600px){
+    .gcol-s-1 {width: 8.33%;}
+    .gcol-s-2 {width: 16.66%;}
+    .gcol-s-3 {width: 25%;}
+    .gcol-s-4 {width: 33.33%;}
+    .gcol-s-5 {width: 41.66%;}
+    .gcol-s-6 {width: 50%;}
+    .gcol-s-7 {width: 58.33%;}
+    .gcol-s-8 {width: 66.66%;}
+    .gcol-s-9 {width: 75%;}
+    .gcol-s-10 {width: 83.33%;}
+    .gcol-s-11 {width: 91.66%;}
+    .gcol-s-12 {width: 100%;}
+}
+
+@media screen and (min-width: 769px){
+    .gcol-1 {width: 8.33%;}
+    .gcol-2 {width: 16.66%;}
+    .gcol-3 {width: 25%;}
+    .gcol-4 {width: 33.33%;}
+    .gcol-5 {width: 41.66%;}
+    .gcol-6 {width: 50%;}
+    .gcol-7 {width: 58.33%;}
+    .gcol-8 {width: 66.66%;}
+    .gcol-9 {width: 75%;}
+    .gcol-10 {width: 83.33%;}
+    .gcol-11 {width: 91.66%;}
+    .gcol-12 {width: 100%;}
+}

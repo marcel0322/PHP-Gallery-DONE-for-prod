@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formula 1 | Sign Up</title>
+    <link rel="icon" type="image/png" href="static/racing-flag.png">
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="static/darkmode.js"></script>
+    <script src="static/dialog.js"></script>
+</head>
+<body>
+    <header>
+        <img src="static/f1.svg" alt="logo">
+    </header>
+    <nav>
+        <a href="/">Home</a>
+        <div class="dropdown">
+            <span>Drivers</span>
+            <div class="dropdown-content">
+              <a href="/info">Driver Information</a>
+              <a href="/gallery">Driver Gallery</a>
+              <a href="/form">Upload Your Files</a>
+            </div>
+        </div>
+        <a href="/teams">Teams</a>
+        <a class="active" href="/form">Upload</a>
+    </nav>
+    <div class="content" id="content-dark">
+        <div class="paragraph" id="para-dark">
+            <h2 class="h2dark">Join the conversation.</h2>
+            <p>Sign up and start connecting with other F1 fans via our forums!</p>
+            <div class="formbox">
+                    <form action="form.php">
+                      <div class="row">
+                        <div class="fcol-25">
+                          <label for="name">Name:</label>
+                        </div>
+                        <div class="fcol-75">
+                          <input type="text" id="name" name="firstname" placeholder="Your name..">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="fcol-25">
+                          <label for="pswd">Password:</label>
+                        </div>
+                        <div class="fcol-75">
+                          <input type="password" id="pswd" name="pswd" placeholder="Set a password..">
+                        </div>
+                      </div>
+                      <div class="row">
+                            <div class="fcol-25">
+                              <label>Gender:</label>
+                            </div>
+                            <div class="fcol-75">
+                                <label for="male">Male</label>
+                                <input type="radio" name="gender" id="male" value="male">
+                                <label for="female">Female</label>
+                                <input type="radio" name="gender" id="female" value="female">
+                                <label for="other">Other</label>
+                                <input type="radio" name="gender" id="other" value="other">
+                            </div>
+                          </div>
+                      <div class="row">
+                        <div class="fcol-25">
+                          <label for="team">Favourite Team:</label>
+                        </div>
+                        <div class="fcol-75">
+                          <select id="team" name="team">
+                            <option value="0">Select your favourite team</option>
+                            <option value="ferrari">Ferrari</option>
+                            <option value="mercedes">Mercedes</option>
+                            <option value="redbull">Red Bull</option>
+                            <option value="mclaren">McLaren</option>
+                            <option value="renault">Renault</option>
+                            <option value="tororosso">Toro Rosso</option>
+                            <option value="forceindia">Racing Point</option>
+                            <option value="alfaromeo">Alfa Romeo</option>
+                            <option value="haas">Haas</option>
+                            <option value="williams">Williams</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="fcol-25">
+                          <label for="series">Other Racing Series You Like:</label>
+                        </div>
+                        <div class="fcol-75">
+                            <input type="checkbox" id="series" name="wec" value="wec">WEC
+                            <input type="checkbox" name="wrc" value="wrc">WRC
+                            <input type="checkbox" name="indycar" value="indycar">IndyCar
+                            <input type="checkbox" name="formulae" value="formulae">Formula E
+                        </div>
+                      </div>
+                      <div class="row">
+                            <div class="fcol-25">
+                              <label for="info">Your Story:</label>
+                            </div>
+                            <div class="fcol-75">
+                              <textarea id="info" name="info" placeholder="Tell others about yourself!" style="height:200px"></textarea>
+                            </div>
+                          </div>
+                          <div class="row">
+                                <div class="fcol-25">
+                                  <label for="profilepic">Profile picture:</label>
+                                </div>
+                                <div class="fcol-75">
+                                  <input type="file" name="profilepic" id="profilepic">
+                                </div>
+                              </div>
+                      <div class="row">
+                        <input type="submit" value="Submit" id="onSubmitDialog">
+                        <input type="reset" value="Reset">
+                      </div>
+                    </form>
+                  </div>
+            <div id="dialog" title="Form sent!">
+                <p>Your submission has been sent. Awesome!</p>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        
+        <p>WAI Project 2019 - made by Marcel Bieniek</p>
+        <p>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik" target="_blank">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank">www.flaticon.com</a></p>
+        <p>Logo By Liberty Media - Own work, Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=67670446" target="_blank">Link</a></p>
+    </footer>
+</body>
+</html>
